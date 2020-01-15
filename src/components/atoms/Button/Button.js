@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
 const Button = styled.button`
-  background-color: ${({ theme }) => theme.pink};
-  width: 67px;
-  height: 67px;
+  background-color: ${({ theme }) => theme.grey100};
+  width: 77px;
+  height: 77px;
   border-radius: 50px;
   border: none;
   font-family: 'Montserrat', sans-serif;

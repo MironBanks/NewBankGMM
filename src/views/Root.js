@@ -7,6 +7,7 @@ import Scan from './Scan';
 import Request from './Request';
 import Payments from './Payments';
 import Cards from './Cards';
+import Logout from './Logout';
 
 const Root = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const Root = () => (
         <Route path="/send" component={Send} />
         <Route path="/payments" component={Payments} />
         <Route path="/cards" component={Cards} />
+        <Route path="/logout" component={Logout} />
       </Switch>
     </MainTemplate>
   </BrowserRouter>

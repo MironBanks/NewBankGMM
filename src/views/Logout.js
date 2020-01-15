@@ -1,10 +1,10 @@
 import React from 'react';
 import UserPageTemplate from '../templates/UserPageTemplate';
 
-const Scan = () => (
+const Logout = () => (
   <UserPageTemplate>
-    <h1>Scan view</h1>
+    <h1>Log out view</h1>
   </UserPageTemplate>
 );
 
-export default Scan;
+export default Logout;

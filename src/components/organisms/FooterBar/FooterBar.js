@@ -14,7 +14,7 @@ const StyledWrapper = styled.nav`
   padding: 0;
   width: 100vw;
   height: 80px;
-  background-color: ${({ theme }) => theme.pink100};
+  background-color: ${({ theme }) => theme.grey100};
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -23,10 +23,10 @@ const StyledWrapper = styled.nav`
 
 const FooterBar = () => (
   <StyledWrapper>
-    <ButtonIcon as={NavLink} to="/" icon={homeIcon} />
+    <ButtonIcon as={NavLink} to="/" icon={homeIcon} activeclass="active" />
     <ButtonIcon as={NavLink} to="/payments" icon={paymentsIcon} activeclass="active" />
     <ButtonIcon as={NavLink} to="/cards" icon={cardsIcon} activeclass="active" />
-    <ButtonIcon as={NavLink} to="/login" icon={logoutIcon} activeclass="active" />
+    <ButtonIcon as={NavLink} to="/logout" icon={logoutIcon} activeclass="active" />
   </StyledWrapper>
 );
 
